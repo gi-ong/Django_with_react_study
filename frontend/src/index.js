@@ -3,13 +3,14 @@ import React from 'react';
 // import {BrowserRouter} from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import './index.css';
 import Root from 'pages';
 import About from 'pages/About';
 import Login from 'pages/accounts/Login';
 import Profile from 'pages/accounts/Profile';
 import Home from 'pages/Home';
-// import AccountRoutes from 'pages/accounts';
+// import 'antd/dist/antd.css';
+import './index.css';
+
 
 
 // ReactDOM.render(

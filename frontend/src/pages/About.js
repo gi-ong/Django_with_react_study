@@ -1,4 +1,3 @@
-import Root from 'pages';
 import React from 'react';
 
 function About(){
