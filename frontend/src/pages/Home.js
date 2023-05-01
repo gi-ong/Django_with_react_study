@@ -1,10 +1,10 @@
 import Root from 'pages';
 import React from 'react';
 
-function About(){
+function Home(){
     return (
-        <div>About</div>
+        <div>Home</div>
     )
 }
 
-export default About;
+export default Home;
