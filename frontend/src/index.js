@@ -10,6 +10,7 @@ import Profile from 'pages/accounts/Profile';
 import Home from 'pages/Home';
 // import 'antd/dist/antd.css';
 import './index.css';
+import Signup from 'pages/accounts/Signup';
 
 
 
@@ -43,7 +44,11 @@ const router = createBrowserRouter([
           {
             path : "profile",
             element: <Profile/>,
-          },    
+          },
+          {
+            path : "signup",
+            element: <Signup/>,
+          },
         ],
       },
     ]
